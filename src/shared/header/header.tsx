@@ -1,6 +1,24 @@
+import styles from './header.module.scss'
+
 const Header = () => {
     return (
-        <div>Header</div>
+        <div className={styles.container}>
+            <div className={styles.wrap}>
+                <div className={styles.translation}>
+                    <p className={styles.translationItem}>UA</p>
+                    <p className={styles.translationItem}>EN</p>
+                </div>
+                <div className={styles.about}>обо мне</div>
+            </div>
+            <div className={styles.titleWrap}>
+                <h1 className={styles.title}>ALISA KURAIEVA</h1>
+            </div>
+            <div className={styles.infoWrap}>
+                <div className={styles.info}>фото</div>
+                <div className={styles.info}>цена</div>
+                <div className={styles.info}>контакты</div>
+            </div>
+        </div>
     )
 }
 
