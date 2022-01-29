@@ -1,0 +1,42 @@
+.container {
+  padding: 150px 40px 60px;
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imageWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageWrap > img {
+  max-width: 724px;
+  width: 100%;
+  height: auto;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0.13em;
+  color: #787672;
+  padding-bottom: 50px;
+}
+
+.description {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.13em;
+  color: #787672;
+}

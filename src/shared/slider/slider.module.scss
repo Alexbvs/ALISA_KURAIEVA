@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  height: auto;
+  max-height: 820px;
+  position: relative;
+}
+
+.imageWrap > img {
+  max-height: 820px;
+  width: 100%;
+}
+
+.slick-next {
+  right: 50px;
+}
+
+.arrow {
+  cursor: pointer;
+  background: url("../../assets/arrow_down.svg");
+  height: 10px;
+  width: 22px;
+  position: absolute;
+  bottom: 30px;
+  left: calc(50% - 22px);
+}

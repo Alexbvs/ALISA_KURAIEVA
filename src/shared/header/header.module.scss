@@ -11,8 +11,41 @@
 .wrap {
   font-family: 'ALS Ekibastuz', serif;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  position: relative;
+}
+
+.translation {
+  position: absolute;
+  left: 55px;
+  top: 38px;
+}
+
+.translationItem {
+  font-size: 24px;
+  color: #787672;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  transition: box-shadow .3s;
+  &:hover {
+    text-shadow: 0 0 11px rgba(33,33,33,.2);
+    color: #1E1C1C;
+  }
+}
+
+.about {
+  font-size: 24px;
+  color: #787672;
+  letter-spacing: 0.13em;
+  cursor: pointer;
+  transition: box-shadow .3s;
+  padding-left: 67px;
+  &:hover {
+    text-shadow: 0 0 11px rgba(33,33,33,.2);
+    color: #1E1C1C;
+  }
 }
 
 .titleWrap {
@@ -20,7 +53,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-width: 600px;
+  min-width: 510px;
 }
 
 .title {
@@ -35,11 +68,18 @@
 .infoWrap {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   width: 100%;
-  min-width: 390px;
 }
 
 .info {
-   font-family: 'ALS Ekibastuz', serif;
+  font-size: 24px;
+  color: #787672;
+  letter-spacing: 0.13em;
+  cursor: pointer;
+  transition: box-shadow .3s;
+  &:hover {
+    text-shadow: 0 0 11px rgba(33,33,33,.2);
+    color: #1E1C1C;
+  }
  }
