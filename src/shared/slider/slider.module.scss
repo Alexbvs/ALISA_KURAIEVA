@@ -10,8 +10,54 @@
   width: 100%;
 }
 
-.slick-next {
-  right: 50px;
+.slickPrev {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.slickNext {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.slickNext::before {
+  content: "";
+  background: url("../../assets/arrow_right.svg");
+  color: white;
+  display: block;
+  width: 11px;
+  height: 20px;
+}
+
+.slickPrev::before {
+  content: "";
+  background: url("../../assets/arrow_left.svg");
+  color: white;
+  display: block;
+  width: 11px;
+  height: 20px;
 }
 
 .arrow {

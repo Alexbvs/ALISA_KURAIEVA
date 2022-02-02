@@ -7,10 +7,10 @@ import slide3 from '../../assets/main_slider_3.jpg'
 import slide4 from '../../assets/main_slider_4.jpg'
 
 function SampleNextArrow(props: any) {
-    const { className, style, onClick } = props;
+    const { style, onClick } = props;
     return (
         <div
-            className={className}
+            className={styles.slickNext}
             style={{ ...style, display: "block", right: "45px" }}
             onClick={onClick}
         />
@@ -18,10 +18,10 @@ function SampleNextArrow(props: any) {
 }
 
 function SamplePrevArrow(props: any) {
-    const { className, style, onClick } = props;
+    const { style, onClick } = props;
     return (
         <div
-            className={className}
+            className={styles.slickPrev}
             style={{ ...style, display: "block", left: "45px", zIndex: "1" }}
             onClick={onClick}
         />
