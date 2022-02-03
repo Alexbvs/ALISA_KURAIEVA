@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ALISA_KURAIEVA/static/css/main.acb7a224.css",
-    "main.js": "/ALISA_KURAIEVA/static/js/main.5e058b45.js",
+    "main.css": "/ALISA_KURAIEVA/static/css/main.7742c9ca.css",
+    "main.js": "/ALISA_KURAIEVA/static/js/main.21efa4b4.js",
     "static/js/787.9ed70e0e.chunk.js": "/ALISA_KURAIEVA/static/js/787.9ed70e0e.chunk.js",
     "static/media/main_slider_4.jpg": "/ALISA_KURAIEVA/static/media/main_slider_4.ad86b135f49c21e039e6.jpg",
     "static/media/main_slider_1.png": "/ALISA_KURAIEVA/static/media/main_slider_1.9478269d438c7b37d36e.png",
@@ -16,12 +16,12 @@
     "static/media/arrow_right.svg": "/ALISA_KURAIEVA/static/media/arrow_right.a8758b73aa7eea4dea6d.svg",
     "static/media/arrow_left.svg": "/ALISA_KURAIEVA/static/media/arrow_left.50d73a1442af5eddf428.svg",
     "static/media/arrow_down.svg": "/ALISA_KURAIEVA/static/media/arrow_down.de2004e8427aa1157f9f.svg",
-    "main.acb7a224.css.map": "/ALISA_KURAIEVA/static/css/main.acb7a224.css.map",
-    "main.5e058b45.js.map": "/ALISA_KURAIEVA/static/js/main.5e058b45.js.map",
+    "main.7742c9ca.css.map": "/ALISA_KURAIEVA/static/css/main.7742c9ca.css.map",
+    "main.21efa4b4.js.map": "/ALISA_KURAIEVA/static/js/main.21efa4b4.js.map",
     "787.9ed70e0e.chunk.js.map": "/ALISA_KURAIEVA/static/js/787.9ed70e0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acb7a224.css",
-    "static/js/main.5e058b45.js"
+    "static/css/main.7742c9ca.css",
+    "static/js/main.21efa4b4.js"
   ]
 }
